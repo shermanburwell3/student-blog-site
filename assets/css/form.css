@@ -19,10 +19,10 @@ form span {
     width: var(--text-box-width);
 }
 
-#post-title-input {
+#post-title {
     width: var(--text-box-width); 
 }
-#post-content-input {
+#post-content {
     width: var(--text-box-width);
     height: 200px;
 }
