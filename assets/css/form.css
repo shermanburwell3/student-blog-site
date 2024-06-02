@@ -10,6 +10,15 @@ form span {
     display: block;
 }
 
+.buttons button {
+    display: inline;
+    margin-top: 15px;
+}
+
+#post-username {
+    width: var(--text-box-width);
+}
+
 #post-title-input {
     width: var(--text-box-width); 
 }
@@ -17,3 +26,6 @@ form span {
     width: var(--text-box-width);
     height: 200px;
 }
+
+
+
