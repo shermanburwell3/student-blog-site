@@ -1,6 +1,12 @@
+* {
+    font-family: sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .blog-link {
     margin-top: 25px;;
     margin-bottom: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
 }
