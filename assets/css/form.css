@@ -1,0 +1,20 @@
+:root {
+    --text-box-width: 500px;
+}
+
+a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+form span {
+    display: block;
+}
+
+#post-title {
+    width: var(--text-box-width);
+}
+#post-content {
+    width: var(--text-box-width);
+    height: 200px;
+}
