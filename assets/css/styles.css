@@ -7,6 +7,12 @@ h1, h2, h3 {
 }
 
 .blog-link {
-    margin-top: 25px;;
+    margin-top: 25px;
     margin-bottom: 25px;
+    margin-left: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
