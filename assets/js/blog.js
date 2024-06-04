@@ -30,6 +30,7 @@ function generateBlogs() {
 
 backButton.addEventListener('click', function () {
     // Go back to home page 
+    window.location.href = '../';
 });
 
 generateBlogs();

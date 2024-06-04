@@ -33,9 +33,10 @@ submitButton.addEventListener('click', function () {
     else if (!blogArray) {
         blogArray = [blogPost];
     }
-    
+
     // Store blogPost into local storage
     localStorage.setItem('blogPosts', JSON.stringify(blogArray));
+    window.location.href = './blog.html'
     event.preventDefault();
     
 });

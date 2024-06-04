@@ -1,5 +1,21 @@
+:root {
+    /* dark mode variables */
+    --dm-background: rgb(46, 46, 46);
+    --dm-color: white;
+
+    /* light mode variables */
+    --lm-background: white;
+    --lm-color: black;
+}
+
 * {
     font-family: sans-serif;
+    background-color: var(--lm-background);
+    color: var(--lm-color);
+}
+
+header button {
+    float: right;
 }
 
 h1, h2, h3 {
