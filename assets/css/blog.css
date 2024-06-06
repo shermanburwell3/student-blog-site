@@ -1,10 +1,14 @@
 section div {
     border: navy;
     border-style: solid;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 25px;
 }
 
 section div h2, section div h3, section div p {
     margin-left: 15px;
+}
+
+#back-button {
+    float: left;
 }
