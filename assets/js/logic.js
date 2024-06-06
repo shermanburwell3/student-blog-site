@@ -1,27 +1,35 @@
 // Add light/dark mode logic here
 
-darkModeButton = document.querySelector('#dark-mode-button')
+const darkModeButton = document.querySelector('#dark-mode-button')
+let state = darkModeButton.getAttribute('data-state');
+state = darkModeButton.setAttribute('data-state', localStorage.getItem('darkMode'))
 
 
-function toggleDarkMode() {
+
+darkModeButton.addEventListener('click', function() {
 
     // Get a handle on the entire page
-    const htmlEl = document.querySelector('*');
+    const bodyEl = document.querySelectorAll();
 
     // Get state of page being light mode or dark mode
-    const state = darkModeButton.getAttribute('data-state');
+    let state = darkModeButton.getAttribute('data-state');
 
     // Check state and apply style changes
     if (state === 'light') {
-        state = 'dark';
+        state = darkModeButton.setAttribute('data-state', 'dark');
         console.log(state);
-        htmlEl.setAttribute('style', 'background-color: var(--dm-background); color: var(--dm-color);')
+        bodyEl.setAttribute('style', 'background-color: var(--dm-background); color: var(--dm-color);');
     }
     else if (state === 'dark') {
-        state = 'light';
-        htmlEl.setAttribute('style', 'background-color: var(--lm-background); color: var(--lm-color);')
+        state = darkModeButton.setAttribute('data-state', 'light');
+        console.log(state);
+        bodyEl.setAttribute('style', 'background-color: var(--lm-background); color: var(--lm-color);');
     }
 
-}
+    else {
+        state = darkModeButton.setAttribute('data-state', 'dark');
+        console.log(state);
+        bodyEl.setAttribute('style', 'background-color: var(--dm-background); color: var(--dm-color);');
+    }
 
-darkModeButton.addEventListener('click', toggleDarkMode());
+});
