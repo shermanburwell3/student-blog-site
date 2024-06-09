@@ -2,11 +2,11 @@
 
 ## Description
 
-
+This is a blog site designed for students in mind. All blog posts are saved to the browser's local storage to be used for later.
 
 ## Instructions for Use
 
-
+Fill out all three necessary text fields and click subit to create a blog post. You will be redirected to the main blog site with all of your posts.
 
 ## Link to Deployed Application
 
