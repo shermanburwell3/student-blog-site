@@ -10,10 +10,11 @@
 
 ## Link to Deployed Application
 
-
+https://shermanburwell3.github.io/student-blog-site/
 
 ## Screenshot
 
+![Image of eployed application](image.png)
 
 
 ## Credits
