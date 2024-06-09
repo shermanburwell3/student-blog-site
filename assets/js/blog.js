@@ -30,7 +30,8 @@ function generateBlogs() {
 
 backButton.addEventListener('click', function () {
     // Go back to home page 
-    window.location.href = 'https://shermanburwell3.github.io/';
+    // window.location.href = 'https://shermanburwell3.github.io/';
+    history.go(-1);
 });
 
 generateBlogs();
