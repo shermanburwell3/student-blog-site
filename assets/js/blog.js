@@ -30,7 +30,7 @@ function generateBlogs() {
 
 backButton.addEventListener('click', function () {
     // Go back to home page 
-    window.location.href = './student-blog-site';
+    window.location.href = '/';
 });
 
 generateBlogs();
